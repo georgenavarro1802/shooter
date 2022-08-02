@@ -34,7 +34,6 @@ while run:
     player1.draw()
     player2.draw()
 
-
     for event in pygame.event.get():
         # quit game
         if event.type == pygame.QUIT:
